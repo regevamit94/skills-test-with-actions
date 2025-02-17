@@ -35,7 +35,7 @@ jobs:
 
   on_add_test_reporting:
     name: On add test reporting
-    needs: get_current_step
+    #needs: get_current_step
 
     # We will only run this action when:
     # 1. This repository isn't the template repository.
